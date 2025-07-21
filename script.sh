@@ -1,8 +1,4 @@
 #!/bin/bash
-# Update and Install
-sudo apt update
-sudo apt install ccache
-sudo apt install git-lfs
 # Delete trees
 echo  "===================================="
 echo  "=========== DELETE TREES ==========="
