@@ -56,7 +56,9 @@ echo  "===================================="
 echo  "============ FIX SOURCE ============"
 echo  "===================================="
 rm -rf vendor/infinity
+rm -rf vendor/lineage/config
 git clone https://github.com/dat737/vendor_infinity.git vendor/infinity
+git clone https://github.com/dat737/vendor_lineage_config.git vendor/lineage/config
 /opt/crave/resync.sh
 # Build
 echo  "==================================="
