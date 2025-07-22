@@ -4,6 +4,7 @@ echo  "===================================="
 echo  "=========== DELETE TREES ==========="
 echo  "===================================="
 rm -rf .repo/local_manifests
+rm -rf frameworks/base/core/res/res/values/config.xml
 rm -rf prebuilts/clang/host/linux-x86
 rm -rf device/xiaomi/xaga
 rm -rf device/xiaomi/mt6895-common
