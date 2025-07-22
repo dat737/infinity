@@ -55,9 +55,7 @@ echo  "===================================="
 echo  "============ FIX SOURCE ============"
 echo  "===================================="
 rm -rf vendor/infinity
-rm -rf frameworks/base/core/res/res/values
 git clone https://github.com/dat737/vendor_infinity.git vendor/infinity
-git clone https://github.com/dat737/frameworks_base_core_res_res_values.git frameworks/base/core/res/res/values
 /opt/crave/resync.sh
 # Build
 echo  "==================================="
