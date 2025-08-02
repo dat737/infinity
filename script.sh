@@ -23,14 +23,14 @@ echo  "==================================="
 echo  "=========== CLONE TREES ==========="
 echo  "==================================="
 git clone https://github.com/dat737/android_device_xiaomi_xaga.git device/xiaomi/xaga
-git clone https://github.com/XagaForge/android_device_xiaomi_mt6895-common.git device/xiaomi/mt6895-common
-git clone https://gitlab.com/priiii08918/android_vendor_xiaomi_xaga.git -b 16 vendor/xiaomi/xaga
-git clone https://github.com/XagaForge/android_vendor_xiaomi_mt6895-common.git vendor/xiaomi/mt6895-common
+git clone https://github.com/dat737/android_device_xiaomi_mt6895-common.git device/xiaomi/mt6895-common
+git clone https://github.com/xaga-risingos-devs-staging/android_vendor_xiaomi_xaga.git vendor/xiaomi/xaga
+git clone https://github.com/xaga-risingos-devs-staging/android_vendor_xiaomi_mt6895-common.git vendor/xiaomi/mt6895-common
 git clone https://github.com/XagaForge/android_kernel_xiaomi_mt6895.git kernel/xiaomi/mt6895
 git clone https://github.com/XagaForge/android_vendor_mediatek_ims.git vendor/mediatek/ims
 git clone https://github.com/XagaForge/android_device_mediatek_sepolicy_vndr.git device/mediatek/sepolicy_vndr
 git clone https://github.com/XagaForge/android_hardware_mediatek.git hardware/mediatek
-git clone https://github.com/XagaForge/android_hardware_xiaomi.git hardware/xiaomi
+git clone https://github.com/dat737/android_hardware_xiaomi.git hardware/xiaomi
 git clone https://github.com/XagaForge/android_vendor_firmware.git vendor/firmware
 git clone https://github.com/dat737/vendor_lineage_config.git vendor/lineage/config
 git clone https://gitlab.com/priiii08918/proprietary_vendor_xiaomi_miuicamera-xaga.git -b 16 vendor/xiaomi/miuicamera-xaga
@@ -55,9 +55,7 @@ repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/ProjectInfi
 echo  "===================================="
 echo  "============ FIX SOURCE ============"
 echo  "===================================="
-rm -rf vendor/infinity
 rm -rf vendor/lineage/config
-git clone https://github.com/dat737/vendor_infinity.git vendor/infinity
 git clone https://github.com/dat737/vendor_lineage_config.git vendor/lineage/config
 /opt/crave/resync.sh
 # Build
