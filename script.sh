@@ -28,7 +28,7 @@ git clone https://github.com/ESK-Project/android_kernel_xiaomi_mt6895 kernel/xia
 git clone https://github.com/XagaForge/android_vendor_mediatek_ims.git vendor/mediatek/ims
 git clone https://github.com/dat737/android_device_mediatek_sepolicy_vndr.git device/mediatek/sepolicy_vndr
 git clone https://github.com/XagaForge/android_hardware_mediatek.git hardware/mediatek
-git clone https://github.com/dat737/android_hardware_xiaomi.git hardware/xiaomi
+git clone https://github.com/XagaForge/android_hardware_xiaomi.git hardware/xiaomi
 git clone https://github.com/XagaForge/android_vendor_firmware.git vendor/firmware
 git clone https://github.com/dat737/vendor_lineage_config.git vendor/lineage/config
 git clone https://gitlab.com/priiii08918/proprietary_vendor_xiaomi_miuicamera-xaga.git -b 16 vendor/xiaomi/miuicamera-xaga
